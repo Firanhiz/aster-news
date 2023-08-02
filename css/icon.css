@@ -1,0 +1,79 @@
+.icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-logo2935 {
+    width: 29px;
+    height: 35px;
+}
+
+.icon-search1818 {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-arrow-right2019 {
+    width: 20px;
+    height: 19px;
+}
+
+.icon-24 {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-arrow-bottom168 {
+    width: 16px;
+    height: 8px;
+}
+
+/* left-side start */
+.icon-home {
+    background-image: url(../icons/home.svg);
+}
+
+.icon-globe {
+    background-image: url(../icons/globe.svg);
+}
+
+.icon-briefcase {
+    background-image: url(../icons/briefcase.svg);
+}
+
+.icon-activity {
+    background-image: url(../icons/activity.svg);
+}
+
+.icon-shield {
+    background-image: url(../icons/shield.svg);
+}
+
+.icon-home {
+    background-image: url(../icons/home.svg);
+}
+
+.icon-play-circle {
+    background-image: url(../icons/play-circle.svg);
+}
+
+.icon-award {
+    background-image: url(../icons/award.svg);
+}
+
+.icon-message-circle {
+    background-image: url(../icons/message-circle.svg);
+}
+
+.icon-bell {
+    background-image: url(../icons/bell.svg);
+}
+
+.icon-settings {
+    background-image: url(../icons/settings.svg);
+}
+/* left-side end */
