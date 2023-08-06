@@ -32,6 +32,11 @@
     height: 8px;
 }
 
+.icon-1616 {
+    width: 16px;
+    height: 16px;
+}
+
 /* left-side start */
 .icon-home {
     background-image: url(../icons/home.svg);
@@ -76,4 +81,35 @@
 .icon-settings {
     background-image: url(../icons/settings.svg);
 }
+
+.icon-gift {
+    background-image: url(../icons/gift.svg);
+}
 /* left-side end */
+
+
+/* MIDDLE SIDE start */
+.icon-search {
+    background-image: url(../icons/search.svg);
+}
+
+.icon-arrow-right {
+    background-image: url(../icons/arrow-right.svg);
+}
+
+.icon-more-horiz {
+    background-image: url(../icons/more-horiz.svg);
+}
+
+.icon-dot {
+    background-image: url(../img/img-dot.svg);
+}
+
+.icon-share {
+    background-image: url(../icons/share.svg);
+}
+
+.icon-pocket {
+    background-image: url(../icons/pocket.svg);
+}
+/* MIDDLE SIDE end */
