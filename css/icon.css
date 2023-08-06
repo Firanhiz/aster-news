@@ -112,4 +112,14 @@
 .icon-pocket {
     background-image: url(../icons/pocket.svg);
 }
+
+/* following start */
+.icon-feather {
+    background-image: url(../icons/feather.svg);
+}
+
+.icon-arrow-left {
+    background-image: url(../icons/arrow-left.svg);
+}
+/* following end */
 /* MIDDLE SIDE end */
