@@ -6,7 +6,7 @@
 
 .all {
     display: grid;
-    grid-template-columns: 250px 1fr 275px;
+    grid-template-columns: 248px 1fr 273px;
     column-gap: 45px;
 }
 
@@ -36,7 +36,7 @@
     margin-bottom: 123px;
 }
 
-.left-side .navbar a {
+.left-side .navbar a:not(.covid-19) {
     height: 24px;
     font-size: var(--font-size-15);
     color: var(--color-4b);
@@ -48,14 +48,21 @@
 }
 
 hr {
-    width: 243px;
+    width: 209px;
     height: 0.2px;
     background-color: var(--color-4b);
 }
 
 .covid-19 {
-    margin-top: 22px;
-    margin-bottom: 20px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    height: 24px;
+    font-size: var(--font-size-15);
+    color: var(--color-4b);
+}
+
+.entertainment {
+    margin-top: 38px;
 }
 
 .premium {
@@ -151,7 +158,8 @@ hr {
     height: 46px;
     border: 0.2px solid #072D4B;
     border-radius: 4px;
-    background-color: #F4F9F8;;
+    background-color: #F4F9F8;
+    ;
 }
 
 .latest-news p {
@@ -162,11 +170,12 @@ hr {
 .latest-news i {
     margin-right: 14px;
 }
+
 /* searching end */
 
 /* stories start */
 .stories {
-    margin-bottom: 24px; 
+    margin-bottom: 24px;
 }
 
 .stories h1 {
@@ -201,6 +210,7 @@ hr {
 .stories .btns i {
     margin-left: 18px;
 }
+
 /* stories end */
 
 /* card start */
@@ -242,22 +252,22 @@ hr {
     color: var(--color-4b);
 }
 
-.item1 .figure-dot  {
+.item1 .figure-dot {
     width: 12px;
     height: 12px;
     position: relative;
     margin-left: 8px;
     margin-right: 8px;
-} 
+}
 
 .item1 .figure-dot .icon-dot {
-   width: 4px;
-   height: 4px;
-   position: absolute;
-   top: 50%;
-   right: 50%;
-   bottom: 50%;
-   left: 50%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
 }
 
 .item1 .share-read {
@@ -307,7 +317,7 @@ hr {
 }
 
 .card-item-small .inner-text,
-.card-item-small .no-wh-text{
+.card-item-small .no-wh-text {
     color: var(--color-4b);
     font-size: var(--font-size-14);
     line-height: 22px;
@@ -332,22 +342,22 @@ hr {
     color: var(--color-4b);
 }
 
-.card-item-small .figure-dot  {
+.card-item-small .figure-dot {
     width: 12px;
     height: 12px;
     position: relative;
     margin-left: 6px;
     margin-right: 6px;
-} 
+}
 
 .card-item-small .figure-dot .icon-dot {
-   width: 4px;
-   height: 4px;
-   position: absolute;
-   top: 50%;
-   right: 50%;
-   bottom: 50%;
-   left: 50%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
 }
 
 .card-item-small .share-read-later .share-read {
@@ -363,6 +373,7 @@ hr {
 .card-item-small .no-wh-title {
     margin-bottom: 10px;
 }
+
 /* card end */
 
 /* following start */
@@ -380,6 +391,7 @@ hr {
     font-weight: var(--font-weight-700);
     color: var(--color-4b);
 }
+
 /* following end */
 
 /* creators star */
@@ -428,6 +440,7 @@ hr {
     color: white;
     font-size: var(--font-size-15);
 }
+
 /* creators end */
 
 /* card down start */
@@ -437,18 +450,18 @@ hr {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 44px;
 }
+
 /* card down end */
 
 /* middle-side-ftr start */
 .middle-side-ftr .show-more button {
     width: 118px;
     height: 38px;
-    background-color:  #F4F9F8;
+    background-color: #F4F9F8;
     font-size: var(--font-size-15);
     color: var(--color-4b);
     border-radius: 4px;
     border: 0.2px solid var(--color-4b);
-    
 }
 
 .middle-side-ftr hr {
@@ -468,5 +481,147 @@ hr {
 .middle-side-ftr .privacy-policy {
     margin-right: 38px;
 }
+
 /* middle-side-ftr end */
 /* MIDDLE SIDE end */
+
+/* RIGHT SIDE start */
+/* profile start */
+.right-side .profile {
+    margin-top: 26px;
+    margin-bottom: 90px;
+    margin-right: 34px;
+
+}
+
+.right-side .profile div {
+    margin-right: 36px;
+}
+
+.right-side .profile div span {
+    margin-left: 13px;
+}
+
+/* profile end */
+
+/* celsius start */
+.celsius,
+.story-writer {
+    margin-right: 34px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.celsius .tamil-nadu {
+    margin-bottom: 10px;
+}
+
+.celsius .tamil-nadu p,
+.story-writer div p {
+    font-size: var(--font-size-15);
+    color: var(--color-4b);
+}
+
+.celsius hr {
+    width: auto;
+    height: 0.2px;
+    color: var(--color-4b);
+    margin-bottom: 15px;
+}
+
+.celsius .sun {
+    margin-bottom: 15px;
+}
+
+.celsius .sun figure {
+    width: 52px;
+    height: 52px;
+}
+
+.celsius .sun figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.celsius .sun div .c31 {
+    font-size: 26px;
+    color: var(--color-4b);
+    font-weight: var(--font-weight-700);
+}
+
+.celsius .sun div .sunny {
+    font-size: var(--font-size-15);
+    color: var(--color-4b);
+}
+
+.celsius .cel-fah a {
+    font-size: var(--font-size-15);
+    color: var(--color-4b);
+    margin-right: 23px;
+}
+
+/* celsius end */
+
+/* story-writer start */
+.story-writer div p {
+    margin-left: 12px;
+}
+
+.story-writer .contribute-stories {
+    margin-top: 12px;
+}
+
+.story-writer div .contribute {
+    height: 38px;
+    flex-grow: 2;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.story-writer div button {
+    height: 38px;
+    flex-grow: 1;
+    background-color: #F4F9F8;
+    font-size: var(--font-size-15);
+    color: var(--color-4b);
+    border-radius: 4px;
+    border: 0.2px solid var(--color-4b);
+}
+
+/* story-writer end */
+
+
+/* quick bytes start */
+.quick-bytes {
+    background-color: white;
+    margin-right: 34px;
+    padding: 15px;
+}
+
+.quick-bytes hr {
+    width: 209px;
+    height: 0.2px;
+    color: var(--color-4b);
+    margin-bottom: 15px;
+}
+
+.quick-bytes div p {
+    font-size: var(--font-size-12);
+    color: var(--color-4b);
+    line-height: 20px;
+}
+
+.quick-bytes figure {
+    width: 54px;
+    height: 4px;
+    margin-top: 10px;
+}
+
+.quick-bytes figure img {
+    width: 100%;
+    height: 100%;
+}
+/* quick bytes end */
+/* RIGHT SIDE end */
