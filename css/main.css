@@ -624,4 +624,43 @@ hr {
     height: 100%;
 }
 /* quick bytes end */
+
+
+.our-newsletter {
+    background-color: white;
+    margin-right: 34px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.our-newsletter h4 {
+    font-size: var(--font-size-15);
+    color: var(--color-4b);
+    margin-bottom: 12px;
+}
+
+.our-newsletter input {
+    height: 38px;
+    width: 204px;
+    background-color: #F4F9F8;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.our-newsletter::placeholder  {
+    padding-left: 14px;
+}
+
+.our-newsletter button {
+    height: 38px;
+    width: 204px;
+    background-color: var(--color-f8);
+    color: white;
+    font-size: var(--font-size-15);
+    border: none;
+    border-radius: 4px;
+}
 /* RIGHT SIDE end */
